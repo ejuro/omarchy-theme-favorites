@@ -1,0 +1,209 @@
+{
+  "catppuccin": {
+    "author": "DHH",
+    "repository": "",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/e09c0477aae5cf1f52a80f6df7f327385febfb53"
+    ],
+    "palette_author": "Catppuccin",
+    "palette_sources": [
+      "https://github.com/catppuccin/catppuccin"
+    ]
+  },
+  "catppuccin-latte": {
+    "author": "Ryan Yogan",
+    "repository": "",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/03a541a9a2b4a7c1810f027d56399a44d6485630"
+    ],
+    "palette_author": "Catppuccin",
+    "palette_sources": [
+      "https://github.com/catppuccin/catppuccin",
+      "https://github.com/omacom/omarchy/commit/03a541a9a2b4a7c1810f027d56399a44d6485630"
+    ]
+  },
+  "ethereal": {
+    "author": "Bjarne Øverli",
+    "repository": "",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/cd2a4e416bca553f531067c6584e4f2e2f629406"
+    ]
+  },
+  "everforest": {
+    "author": "DHH",
+    "repository": "",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/04b0fb09ee99a018f7a7c096b171939fb048b7ea"
+    ],
+    "palette_author": "sainnhe",
+    "palette_sources": [
+      "https://github.com/sainnhe/everforest"
+    ]
+  },
+  "flexoki-light": {
+    "author": "Euan & DHH",
+    "repository": "https://github.com/euandeas/omarchy-flexoki-light-theme",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/0df4dc1a1d359439343a3706cf9af8685c635351",
+      "https://github.com/euandeas/omarchy-flexoki-light-theme"
+    ],
+    "palette_author": "kepano",
+    "palette_sources": [
+      "https://github.com/kepano/flexoki"
+    ],
+    "attribution_note": "Euan published the earlier Omarchy port; multiple application configs match the later bundled version introduced by DHH. Shared attribution is inferred from this file history."
+  },
+  "gruvbox": {
+    "author": "DHH",
+    "repository": "",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/04b0fb09ee99a018f7a7c096b171939fb048b7ea"
+    ],
+    "palette_author": "morhetz",
+    "palette_sources": [
+      "https://github.com/morhetz/gruvbox"
+    ]
+  },
+  "hackerman": {
+    "author": "Bjarne Øverli",
+    "repository": "",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/a1b1eb5920f380e0a679f15810173a0980fb548c"
+    ]
+  },
+  "kanagawa": {
+    "author": "DHH",
+    "repository": "",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/04b0fb09ee99a018f7a7c096b171939fb048b7ea"
+    ],
+    "palette_author": "rebelot",
+    "palette_sources": [
+      "https://github.com/rebelot/kanagawa.nvim"
+    ]
+  },
+  "last-horizon": {
+    "author": "HANCORE",
+    "repository": "https://github.com/HANCORE-linux/omarchy-lasthorizon-theme",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/b2fb2384536593440161bd415449fe1be15afa7b",
+      "https://github.com/HANCORE-linux/omarchy-lasthorizon-theme"
+    ]
+  },
+  "lumon": {
+    "author": "OldJobobo & DHH",
+    "repository": "https://github.com/OldJobobo/omarchy-lumon-theme",
+    "sources": [
+      "https://github.com/OldJobobo/omarchy-lumon-theme",
+      "https://github.com/omacom/omarchy/commit/e24a9f22498d028de080d7e01cb193d23fa3e091"
+    ]
+  },
+  "lupine": {
+    "author": "Bjarne Øverli",
+    "repository": "https://github.com/bjarneo/omarchy-lupine-theme",
+    "sources": [
+      "https://github.com/bjarneo/omarchy-lupine-theme",
+      "https://github.com/omacom/omarchy/commit/1008776ddf94b615cac9bcc3e371a783507bdee4"
+    ]
+  },
+  "matte-black": {
+    "author": "Taha",
+    "repository": "",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/bd2fc67abc9b73aff71498ccc0b20598e09460ad"
+    ]
+  },
+  "miasma": {
+    "author": "OldJobobo",
+    "repository": "https://github.com/OldJobobo/omarchy-miasma-theme",
+    "sources": [
+      "https://github.com/OldJobobo/omarchy-miasma-theme#attribution",
+      "https://github.com/omacom/omarchy/commit/55231e9726f697ca199207c2b5b147d10744e34a"
+    ],
+    "palette_author": "xero",
+    "palette_sources": [
+      "https://github.com/OldJobobo/omarchy-miasma-theme#attribution"
+    ]
+  },
+  "nord": {
+    "author": "DHH",
+    "repository": "",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/04b0fb09ee99a018f7a7c096b171939fb048b7ea"
+    ],
+    "palette_author": "Sven Greb",
+    "palette_sources": [
+      "https://github.com/nordtheme/nord"
+    ]
+  },
+  "osaka-jade": {
+    "author": "Justin Lowry",
+    "repository": "https://github.com/Justikun/omarchy-osaka-jade-theme",
+    "sources": [
+      "https://github.com/Justikun/omarchy-osaka-jade-theme",
+      "https://github.com/omacom/omarchy/commit/1d29c32fe58b91316cbb794ba8bdac2597508b39"
+    ]
+  },
+  "retro-82": {
+    "author": "OldJobobo",
+    "repository": "https://github.com/OldJobobo/omarchy-retro-82-theme",
+    "sources": [
+      "https://github.com/OldJobobo/omarchy-retro-82-theme"
+    ]
+  },
+  "ristretto": {
+    "author": "Greg Helding",
+    "repository": "",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/51fe5bf6e8b79100b2a6525cbc7c947feeafc435"
+    ],
+    "palette_author": "Monokai",
+    "palette_sources": [
+      "https://github.com/monokai-pro/vscode"
+    ]
+  },
+  "rose-pine": {
+    "author": "DHH",
+    "repository": "",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/53f77dd2674cdd0641df96c9da123814c1f5c448"
+    ],
+    "palette_author": "Rosé Pine",
+    "palette_sources": [
+      "https://github.com/rose-pine/rose-pine-theme"
+    ]
+  },
+  "solitude": {
+    "author": "HANCORE",
+    "repository": "https://github.com/HANCORE-linux/omarchy-solitude-theme",
+    "sources": [
+      "https://github.com/HANCORE-linux/omarchy-solitude-theme",
+      "https://github.com/omacom/omarchy/commit/47a53a18bac21f80804d7292d874478035a8cd9d"
+    ]
+  },
+  "tokyo-night": {
+    "author": "DHH",
+    "repository": "",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/e09c0477aae5cf1f52a80f6df7f327385febfb53"
+    ],
+    "palette_author": "Enkia",
+    "palette_sources": [
+      "https://github.com/tokyo-night/tokyo-night-vscode-theme/blob/master/LICENSE.txt"
+    ]
+  },
+  "vantablack": {
+    "author": "Bjarne Øverli",
+    "repository": "",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/c289cd07306ceb98ca99f692ac944605ff1cc1d3"
+    ]
+  },
+  "white": {
+    "author": "Bjarne Øverli",
+    "repository": "",
+    "sources": [
+      "https://github.com/omacom/omarchy/commit/94d668bcc367f64da92d8d4f02bb50303adde4da"
+    ]
+  }
+}

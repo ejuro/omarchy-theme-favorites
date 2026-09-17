@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.ejuro.theme-favorites",
+  "name": "Theme Favorites",
+  "version": "0.1.0",
+  "author": "ejuro",
+  "license": "MIT",
+  "description": "Your most used themes in a compact scrolling list, with weekly, monthly, yearly and all-time statistics.",
+  "kinds": ["service", "bar-widget"],
+  "entryPoints": {"service": "Service.qml", "barWidget": "BarWidget.qml"},
+  "barWidget": {
+    "displayName": "Theme Favorites",
+    "description": "See the themes you spend your days with.",
+    "category": "Appearance",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
