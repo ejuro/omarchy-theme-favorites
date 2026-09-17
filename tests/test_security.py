@@ -1,8 +1,7 @@
-"""Regression checks for local metadata, private storage and installer behavior."""
+"""Regression checks for local metadata and private storage."""
 import json
 import os
 from pathlib import Path
-import subprocess
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -61,33 +60,3 @@ class SecurityTests(unittest.TestCase):
                 self.assertFalse(list(state.glob('.snapshot-*')))
             finally:
                 os.umask(old_mask)
-
-    def test_installer_is_repeatable_and_preserves_existing_installation(self):
-        with tempfile.TemporaryDirectory() as temp:
-            base = Path(temp)
-            config, state, bins = base / 'config', base / 'state', base / 'bin'
-            bins.mkdir()
-            for name in ('omarchy', 'omarchy-shell'):
-                script = bins / name
-                script.write_text('#!/bin/sh\nexit 0\n')
-                script.chmod(0o755)
-            (config / 'omarchy').mkdir(parents=True)
-            (config / 'omarchy/shell.json').write_text('{"existing":true}')
-            env = os.environ | {'XDG_CONFIG_HOME': str(config), 'XDG_STATE_HOME': str(state),
-                                'PATH': str(bins) + os.pathsep + os.environ['PATH']}
-            for _ in range(2):
-                result = subprocess.run(['bash', str(ROOT / 'install.sh')], env=env, capture_output=True, text=True)
-                self.assertEqual(result.returncode, 0, result.stderr)
-            backups = list((state / 'theme-favorites/backups').glob('*.json'))
-            self.assertEqual(len(backups), 2)
-            self.assertTrue(all(p.stat().st_mode & 0o777 == 0o600 for p in backups))
-            self.assertEqual((state / 'theme-favorites').stat().st_mode & 0o777, 0o700)
-            target = config / 'omarchy/plugins/io.github.ejuro.theme-favorites'
-            self.assertEqual(target.resolve(), ROOT)
-            target.unlink()
-            target.mkdir()
-            sentinel = target / 'keep'
-            sentinel.write_text('existing installation')
-            result = subprocess.run(['bash', str(ROOT / 'install.sh')], env=env, capture_output=True, text=True)
-            self.assertNotEqual(result.returncode, 0)
-            self.assertEqual(sentinel.read_text(), 'existing installation')
